@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/g0ldencybersec/EasyEASM/pkg/active"
-	"github.com/g0ldencybersec/EasyEASM/pkg/configparser"
-	"github.com/g0ldencybersec/EasyEASM/pkg/passive"
-	"github.com/g0ldencybersec/EasyEASM/pkg/utils"
+	"github.com/666ares/EasyEASM/pkg/active"
+	"github.com/666ares/EasyEASM/pkg/configparser"
+	"github.com/666ares/EasyEASM/pkg/passive"
+	"github.com/666ares/EasyEASM/pkg/utils"
 )
 
 func main() {
