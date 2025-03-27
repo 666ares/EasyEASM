@@ -55,6 +55,8 @@ func processCSV() {
 		panic(err)
 	}
 
+	fmt.Printf("@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+	fmt.Printf("%s", records)
 	// Specify the indices of the columns to keep
 	columnsToKeep := []int{0, 1, 10, 11, 13, 16, 20, 24, 31, 32, 33, 38, 39, 41, 43} // Keeping only the first and third columns (0-indexed)
 	// columnsToKeep := []int{0,1,7,8,10,13,17,20,26,27,28,32,33,35,37} // Keeping only the first and third columns (0-indexed)
