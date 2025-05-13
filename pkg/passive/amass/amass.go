@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/g0ldencybersec/EasyEASM/pkg/utils"
+	"github.com/666ares/EasyEASM/pkg/utils"
 )
 
 func RunAmass(seedDomain string, results chan string, wg *sync.WaitGroup) {

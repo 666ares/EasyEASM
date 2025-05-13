@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/g0ldencybersec/EasyEASM/pkg/utils"
+	"github.com/666ares/EasyEASM/pkg/utils"
 )
 
 func RunHttpx(domains []string) {
